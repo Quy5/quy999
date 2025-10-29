@@ -1,0 +1,274 @@
+body{
+   font-family: 'Freckle Face', cursive;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff7ef; /* màu nền kem nhạt */
+  background-image: 
+    linear-gradient(#f7d47f 1px, transparent 1px), /* kẻ ngang */
+    linear-gradient(90deg, #f7d47f 1px, transparent 1px); /* kẻ dọc */
+  background-size: 50px 50px; /* kích thước ô vuông */
+}
+.box-content-left{
+    font-family: 'Freckle Face', cursive;
+    width: 35%;
+    height: 400px;
+    margin: auto;
+    background-color: #5ACACE;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    border: 2px solid black;
+    transform: rotate(-4deg);
+    margin-left: 150px;
+}
+.box-content-left h1{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+    -webkit-text-stroke: 2px black; 
+}
+.box-content-left p{
+    font-size: 1.2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-content-left button{
+ font-family: 'Freckle Face', cursive;
+      text-decoration: none;
+      color: black;
+      background-color: #F7DF75;
+      border: 2px solid black;
+      padding: 8px 10px;
+      border-radius: 40px;
+      font-size: 24px;
+      transition: all 0.3s ease;
+      position: relative;
+    top: 30px;
+    left: -40px
+      
+}
+.box-content-left button:hover{
+    background-color: #fff4b0;
+    transform: scale(1.05);
+}
+.box-content-left img{
+    width: 200px;
+    position: relative;
+    top: -65px;
+    left: 230px;
+}
+.box-content-right{
+    width: 34%;
+    margin: auto;
+    margin-right: 200px;
+    z-index: 1;
+}
+.box-content-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+.wave-container{
+    margin-top: -300px;
+    z-index: -1;
+    
+}
+
+.content2{
+    display: flex;
+}
+.box-content2-left{
+    width: 47%;
+    height: 400px;
+    margin-left: 100px;
+    z-index: 1;
+}
+.box-content2-left h1{
+  font-family: 'Baloo 2', cursive;
+  font-size: 3.2rem;
+  color: white; 
+  -webkit-text-stroke: 2px black; 
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px black;
+  line-height: 1.2;
+  text-align: left;
+}
+.box-content2-left p{
+    font-size: 1.2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-content2-right{
+    width: 47%;
+    margin: auto;
+    margin-right: 150px;
+    z-index: 1;
+}
+.box-content2-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+.box-content2-right .img2{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    left: 40px;
+    top: -380px;
+}
+.box-content2-left button{
+       font-family: 'Freckle Face', cursive;
+      text-decoration: none;
+      color: black;
+      background-color: #F7DF75;
+      border: 2px solid black;
+      padding: 8px 10px;
+      border-radius: 40px;
+      font-size: 24px;
+      transition: all 0.3s ease;
+    }
+
+
+    .content3{
+        margin-top: -250px;
+        height: 600px;
+        background-image: url('/egg.jpg');
+        background-size: cover;
+        background-position: center;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .content3 .box-content3{
+        height: 400px;
+        width: 70%;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        background-color: #f7d47f;
+
+    }
+    .box-content3 .box-content3-left{
+        width: 30%;
+        height: 400px;
+        border-radius: 10px 0 0 10px;
+        border-right: 2px solid black;
+        float: left;
+        text-align: right;
+        background-image: url('/hinh-anhcf.webp');
+        background-size: cover;
+        background-position: center;
+        padding-right: 20px;
+    }
+    .box-content3 .box-content3-right{
+        width: 60%;
+        float: right;
+        text-align: left;
+        padding-left: 20px;
+        margin: 20px 20px 0 0;
+    }
+    .content3 .box-content3 h1{
+        font-family: 'Baloo 2', cursive;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 2px black;
+        -webkit-text-stroke: 2px black; 
+    }
+    .content3 .box-content3 p{
+        font-size: 1rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+    }
+
+    .content3 .box-content3 button{
+       font-family: 'Freckle Face', cursive;
+      text-decoration: none;
+      color: black;
+      background-color: #F7DF75;
+      border: 2px solid black;
+      padding: 8px 10px;
+      border-radius: 40px;
+      font-size: 24px;
+      transition: all 0.3s ease;
+    }
+
+    .content4{
+        background-color: #fff7ef; 
+        background-image: 
+        linear-gradient(#f7d47f 1px, transparent 1px), 
+        linear-gradient(90deg, #f7d47f 1px, transparent 1px); 
+      background-size: 50px 50px; 
+    }
+    .box-content4 {
+    width: 75%;
+    margin: 100px auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f7d47f, #ffd966);
+    padding: 40px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    .box-content4 h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+    -webkit-text-stroke: 2px black; 
+    text-align: center;
+    color: #fff;
+    }
+
+    .item {
+    background-image: url('/hinh-anhcf.webp');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #333;
+    padding: 40px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .item:hover {
+    background-color: #fff3c4;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .box-content4 button{
+       font-family: 'Freckle Face', cursive;
+      text-decoration: none;
+      color: black;
+      background-color: #5ACACE;
+      border: 2px solid black;
+      padding: 8px 10px;
+      border-radius: 40px;
+      transition: all 0.3s ease;
+        width: 120px;
+        display: block;
+        margin: 40px auto 0 auto;
+
+    }
+
+
+    footer{
+        text-align: center;
+        height: 300px;
+    }
